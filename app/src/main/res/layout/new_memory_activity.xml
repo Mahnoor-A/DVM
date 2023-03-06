@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bg_blue"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/new_memory_selected_image"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:background="@color/bg_blue"
+        android:src="@drawable/familypicture" />
+
+    <EditText
+        android:id="@+id/new_memory_title"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/light_blue"
+        android:hint="@string/new_memory_title_hint"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/button_skin"
+        android:onClick="openGallery"
+        android:text="@string/new_memory_btn_gallery"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/button_skin"
+        android:onClick="openCamera"
+        android:text="@string/new_memory_btn_camera"
+        android:textColor="@color/black" />
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content">-->
+
+    <Button
+        android:id="@+id/new_memory_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_skin"
+        android:onClick="cancel"
+        android:layout_margin="10dp"
+        android:text="@string/new_memory_btn_cancel"
+        android:textColor="@color/black" />
+
+    <Button
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/button_skin"
+            android:layout_width="match_parent"
+            android:onClick="save"
+            android:text="@string/new_memory_btn_save"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>

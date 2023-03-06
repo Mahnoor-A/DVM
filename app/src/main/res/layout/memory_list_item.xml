@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg_blue"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="vertical"
+        android:background="@color/light_blue"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/list_item_image_view"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/familypicture" />
+
+        <TextView
+            android:id="@+id/list_item_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:backgroundTint="@color/light_blue"
+            tools:text="A test title"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
+
+

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="activity_main_empty_view_text" />
+    <string name="new_memory_title_hint">What is this about?</string>
+    <string name="new_memory_btn_gallery">Open Gallery</string>
+    <string name="new_memory_btn_camera">Open Camera</string>
+    <string name="new_memory_btn_cancel">Cancel</string>
+    <string name="new_memory_btn_save">Save</string>
+</resources>
